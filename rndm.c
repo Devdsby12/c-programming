@@ -25,6 +25,10 @@ int main() {
     scanf("%s", string);  // fixed
 
     printf("You entered: %s\n", string);
+    int dev = 99;
+    int *boss = &dev ;
+    printf("%d\n",dev) ;
+    printf("%d",*boss) ;
 
     return 0;
 }
